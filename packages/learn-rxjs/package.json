@@ -1,0 +1,28 @@
+{
+  "name": "@yui/learn-rxjs",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "denislin <denislin@tencent.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/learn-rxjs.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://mirrors.tencent.com/npm/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "jsdom": "^19.0.0",
+    "open": "^8.4.0",
+    "rxjs": "^7.5.5"
+  }
+}

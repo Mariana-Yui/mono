@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "rxjs:run-code": "sh packages/learn-rxjs/script/run.sh",
+    "rxjs:touch-by-template": "sh packages/learn-rxjs/script/template.sh $1",
+    "nestjs:node": "cd packages/learn-nestjs && npm run start"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.6.1"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
